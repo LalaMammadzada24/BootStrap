@@ -1,0 +1,233 @@
+.head p{
+    text-align: center;
+    color: #121216;
+    font-size: 13px;
+}
+
+nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.head{
+    background-color: #efefef;
+    padding: 18px 0;
+    font-weight: 500;
+}
+
+.head p span{
+    color: #ff6a25;
+}
+
+@media only screen and (max-width: 600px) {
+    .head{
+        display: none;
+    }
+}
+
+nav .navbar-brand{
+    margin-left: 40px;
+}
+
+nav .nav-link{
+    color: black;
+}
+nav .nav-link:hover{
+    color: #ff6a25;
+}
+nav .nav-link:hover i{
+    transform: rotateX(180deg);
+}
+nav .nav-link i{
+    font-size: 12px;
+}
+
+nav .right-box{
+    margin-right: 60px;
+}
+
+nav .right-box i{
+    font-size: 22px;
+    margin: 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+nav .right-box i:hover{
+    color: #ff6a25;
+}
+
+nav .right-box span{
+    background: #ff6a25;
+    font-size: 10px;
+    padding: 3px 9px;
+}
+
+nav .right-box button{
+    background-color: #ff6a25;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
+nav .right-box button:hover{
+    background-color: black;
+    color: white;
+}
+
+nav .dropdown-menu{
+    border-radius: 0;
+    padding: 20px;
+}
+
+nav .dropdown-menu a:hover{
+    color: #ff6a25;
+    background-color: white;
+    transition-duration: 0.1s;
+}
+
+.hero {
+    background-image: url('image/bg-slider.jpg');
+    width: 100%;
+    height: 900px;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero {
+        height: 1000px;
+    }
+}  
+
+
+.hero h6{
+    font-size: 16px;
+    color: #dcdcdc;
+}
+.hero h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.hero p{
+    font-size: 15px;
+    color:#dcdcdc;
+    font-family: sans-serif;
+}
+
+.hero span{
+    color:#ff6a25;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero button{
+    color: white;
+    background-color: #ff6a25;
+    border-radius: 0;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border: 0;
+    padding: 15px;
+}
+
+.hero img{
+    animation-name: watch;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes watch {
+    0% {transform: translateX(10px);}
+    50% {transform: translateX(-10px);}
+    100%{transform: translateX(10px);}
+  }
+
+  .quality h5{
+    font-size: 16px;
+    color: #646464;
+  }
+
+
+  .quality .icon h5{
+    color: black;
+    margin: 10px 40px 22px 0px;
+  }
+
+  .quality .icon i{
+    color: #ff6a25;
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  .quality h3 {
+    font-family: "Right Grotesk",Sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: -2px;
+  }
+
+  .quality button{
+    background-color: #ff6a25;
+    border-radius: 0;
+    border: 0;
+  }
+
+  .quality .icon {
+    transform: translateX(-180px);
+    background-color: #ddd;
+  }
+  .quality .icon div {
+    border-bottom:1px solid #b0afaf;
+  }
+
+  .quality{ background-color: #ddd;}
+
+@media only screen and (max-width: 600px) {
+    .quality .icon {transform: translateX(0);}
+
+}
+
+.quality img{
+    overflow: hidden; 
+}
+
+
+.quality .image:hover img {
+    transform: scale(1.03); 
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+
+.runing-girl .row{
+    background-image: url(https://sapa.thembaydev.com/wp-content/uploads/2023/06/bg-banner-01.jpg);
+    border-radius: 50px;
+}
+
+.runing-girl h6{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.runing-girl h1{
+    color: #fff;
+    font-family: "Right Grotesk",Sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: -3px;
+}
+
+.runing-girl p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.runing-girl{
+    background-color: #ddd;
+}
